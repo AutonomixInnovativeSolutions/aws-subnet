@@ -10,3 +10,7 @@ variable "az" {
 
 variable "subnet_name" {
 }
+variable "map_public_ip_on_launch" {
+default = false
+}
+
